@@ -1,0 +1,19 @@
+.LottoBall
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: tomato;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 2rem;
+    color: white;    
+    font-weight: bold;      
+}
+
+/* to stop container resizing when going from empty to filled */
+.LottoBall::before, .LottoBall::after
+{
+    content: '.';
+    visibility: hidden;
+}

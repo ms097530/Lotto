@@ -1,0 +1,36 @@
+.Lotto
+{
+    border: 1px solid black;
+    margin: 1rem;
+    max-width: 700px;
+    margin: 100px auto;
+    border-radius: 1rem;
+}
+    
+
+.Lotto-title
+{
+    margin-bottom: 0;
+}
+
+.Lotto-balls
+{
+    margin: auto;
+    /* padding: 1rem; */
+    padding: 16px;
+}
+
+.Lotto-balls > *
+{
+    /* display: inline-block; */
+    margin: 0.5rem;
+}
+
+.Lotto-btn
+{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;   
+    color: white;
+    background-color: navy
+}
